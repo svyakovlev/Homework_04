@@ -18,5 +18,19 @@ public class Main {
         System.out.println("Сегодня пятница, " + day + " число. Необходимо подготовить отчет.");
         day += 7;
         }
+
+        //Задание №3
+        int year = 2022;
+        int yearBefore = year - 200;
+        int yearAfter = year + 100;
+        i = 0;
+        do {
+            if (i >= yearBefore && i <= yearAfter) {
+                System.out.println(i);
+            }
+            i += 79;
+        } while (i <= year);
+        System.out.println(i);
+
     }
 }
