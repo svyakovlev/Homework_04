@@ -22,15 +22,14 @@ public class Main {
         //Задание №3
         int year = 2022;
         int yearBefore = year - 200;
-        int yearAfter = year + 100;
-        i = 0;
+        int yearComet = 0;
         do {
-            if (i >= yearBefore && i <= yearAfter) {
-                System.out.println(i);
+            if (yearComet >= yearBefore && yearComet <= year) {
+                System.out.println(yearComet);
             }
-            i += 79;
-        } while (i <= year);
-        System.out.println(i);
+            yearComet += 79;
+        } while (yearComet <= year);
+        System.out.println(yearComet);
 
     }
 }
