@@ -31,5 +31,19 @@ public class Main {
         } while (yearComet <= year);
         System.out.println(yearComet);
 
+        //Задание №4
+        for (int z = 1; z <= 30; z++) {
+            int z3 = z % 3;
+            int z5 = z % 5;
+            if (z3 == 0 && z5 == 0) {
+                System.out.println(z + ": ping pong");
+            } else if (z3 == 0) {
+                System.out.println(z + ": ping");
+            } else if (z5 == 0) {
+                System.out.println(z + ": pong");
+            } else
+            System.out.println(z + ":");
+        }
+
     }
 }
